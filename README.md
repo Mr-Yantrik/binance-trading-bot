@@ -49,7 +49,7 @@ Arguments:
 ## Streamlit UI
 
 ```bash
-streamlit run ui/app.py
+python -m streamlit run ui/app.py
 ```
 
 ## Tests
@@ -82,12 +82,15 @@ cli.py
 Testnet only. No real funds are involved. Use at your own risk.
 
 
-## 🚀 Quick Start
+
+
+
+##  Quick Start
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/Mr-Yantrik/binance-trading-bot.git
 cd YOUR_REPOSITORY
 ```
 
@@ -167,3 +170,4 @@ The application automatically creates log files containing API requests, respons
 - This application works only with Binance Futures Testnet.
 - Never commit your `.env` file.
 - Keep your API Secret private.
+
